@@ -376,9 +376,9 @@ if(sp2==2 & sp3==2){
 new("stat_test", x) 
 }
 
-##################################################################
+################################################################################
 # Generation of design using sets of cyclical shifts
-###################################################################
+################################################################################
 # H is an output object from CGSBRMD_3diffsize
 # The output is called using the design_CGSBRMD to generate design
 design_CGSBRMD<-function(H){
