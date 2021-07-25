@@ -200,10 +200,7 @@ design_CGSBRMD(H)
 
 # example #3
 (H<-CGSBRMD_equalsize(p=4,i=2,D=2))
-(H<-CGSBRMD_equalsize(p=3,i=2,D=2))
-(H<-CGSBRMD_equalsize(p=4,i=2,D=1))
-(H<-CGSBRMD_equalsize(p=3,i=2,D=1))
-
+(H<-CGSBRMD_equalsize(p=6,i=3,D=1))
 
 
 # example #4

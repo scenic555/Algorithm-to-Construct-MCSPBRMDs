@@ -279,35 +279,28 @@ design_CGSBRMD<-function(H){
 
 
 
-# Examples for all cases D=1-case-1
+# Examples for Case#1
 p=c(5,4);i=3;D=1;sp2=1
 (H<-CGSBRMD_2diffsize(p,i,D,sp2))
 (H<-CGSBRMD_2diffsize(p=c(5,4),i=3,D=1,sp2=1))
 (H<-CGSBRMD_2diffsize(p=c(4,3),i=2,D=1,sp2=1))
 (H<-CGSBRMD_2diffsize(p=c(7,3),i=4,D=1,sp2=1))
-(design_CGSBRMD(H))
-
-# Examples for all cases D=2-case-1
-p=c(5,4);i=3;D=2;sp2=1
-(H<-CGSBRMD_2diffsize(p,i,D,sp2))
 (H<-CGSBRMD_2diffsize(p=c(7,4),i=3,D=2,sp2=1))
 (H<-CGSBRMD_2diffsize(p=c(4,3),i=2,D=2,sp2=1))
 (H<-CGSBRMD_2diffsize(p=c(7,3),i=4,D=2,sp2=1))
 (design_CGSBRMD(H))
 
-# Examples for all cases D=1-case-2
+
+
+# Examples Case#2
 (H<-CGSBRMD_2diffsize(p=c(7,5),i=3,D=1,sp2=2))
 (H<-CGSBRMD_2diffsize(p=c(9,6),i=5,D=1,sp2=2))
-(design_CGSBRMD(H))
-
-# Examples for all cases D=2-case-2
 (H<-CGSBRMD_2diffsize(p=c(7,5),i=3,D=2,sp2=2))
 (H<-CGSBRMD_2diffsize(p=c(9,6),i=5,D=2,sp2=2))
 (design_CGSBRMD(H))
 
 
 # Example with message
-
 H<-CGSBRMD_2diffsize(p=c(10,6),i=4,D=1,sp2=2)
 H<-CGSBRMD_2diffsize(p=c(10,8),i=4,D=1,sp2=2)
 H<-CGSBRMD_2diffsize(p=c(10,8),i=3,D=1,sp2=2)
