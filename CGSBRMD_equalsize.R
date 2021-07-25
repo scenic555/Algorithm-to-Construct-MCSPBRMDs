@@ -5,7 +5,8 @@
 # Algorithm from paper:
 
 #  Rida Jabeen, Muhammad Riaz, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen
-#  and Rashid Ahmed (2021). Algorithm to generate minimal CGSBRMDs  
+#  and Rashid Ahmed (2021). An Algorithm to Construct Minimal Circular 
+#  Generalized Strongly Balanced Repeated Measurements Designs.   
 #
 # Coded by Jabeen et al., 2021-2022 
 # Version 1.7.0  (2021-07-25)
